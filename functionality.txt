@@ -1,0 +1,69 @@
+Functionality:
+
+login/authentication
+		different levels of access.
+		
+			role assingment
+				i.e.: admin, project manager, developer, submitter
+				Admin: 
+					can do everything.
+				Project Manager: 
+					can assign users and developers to projects, 
+					can change the status of a ticket, 
+					can submit a new ticket, 
+					can change the priority of a ticket.
+				Developer: 
+					can change status of a ticket, 
+					change priority of a ticket, 
+					can create new tickets.
+				Submitter: 
+					can create new tickets on a project.
+
+		"demo user"
+			login as:
+				Admin
+				Project Manager
+				Developer
+				Submitter
+			can't save changes made to the app while logged in as a demo user
+
+	security
+		3rd party implementation(?)
+
+	bug/issue tracking
+		by project
+			a project is a collection of tickets/issues.
+			tickets/issues are the defects/feature requests inside that project
+
+		tickets:
+			details
+				title
+				description
+				assigned developer
+				submitter
+				project
+				ticket priority
+				ticket status
+				ticket type
+				date created
+				date last updated
+
+			comments
+				commenter
+				message
+				date comment was made
+
+			attachments
+				file name
+				uploader
+				notes
+				date uploaded
+
+			ticket history
+				who changed the ticket
+				who is assigned to the ticket
+				who was assigned to the ticket
+				date the change was made
+
+	search bar
+		searches all fields and displays results as the user types

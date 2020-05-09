@@ -1,0 +1,105 @@
+Features:
+
+	Documentation Integration/Generation, Reporting
+
+	Test Planning Integration
+
+	Customizable Workflow
+
+	Unicode Support
+
+	Custom Fields
+
+	Plugin API
+
+	Multiple Projects
+
+	Full-text Search
+
+	Indexed Full-text Search
+
+	Indexed File Search
+
+	Edit Conflict Warning
+
+
+
+Input Interface:
+
+	Web
+
+	Mobile Web
+
+	Email
+
+	CLI
+
+	GUI
+
+	REST
+
+	SOAP
+
+	Mylyn
+
+	Visual Studio
+
+	IntelliJ IDEA
+	
+	
+Notification interface:
+
+	Email
+
+	RSS
+
+	Atom
+
+	XMPP
+
+	Twitter
+	
+	
+Revision control system integration:
+
+	Git
+
+	Mercurial
+
+	Bazaar
+
+	Monotone
+
+	Darcs
+
+	CVS
+
+	Subversion
+
+	Perforce
+
+	AccuRev
+
+	ClearCase
+	
+	
+Authentication method:
+
+	Form bases
+
+	Public Key
+
+	Two-factor
+
+	OpenID
+
+	OAuth
+
+	LDAP
+
+	Shibboleth
+
+
+
+
+
